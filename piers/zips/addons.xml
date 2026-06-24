@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="metadata.anime.otaku.python" name="Otaku Anime Scraper" version="1.2.1" provider-name="RPDevs">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.metadata.scraper.tvshows" library="scraper.py">
+        <provides>tvshows episodes</provides>
+    </extension>
+    <extension point="xbmc.metadata.scraper.movies" library="scraper_movies.py">
+        <provides>movies</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context_main.py">
+                <label>Otaku: Standardize Anime Filenames (S01E01)</label>
+                <visible>!IsEmpty(ListItem.FolderPath)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Anime Metadata Indexer powered by AniList and Otaku Mappings</summary>
+        <description>A high-performance scraper mapping Eastern Anime databases to native Kodi formats.</description>
+        <platform>all</platform>
+    </extension>
+</addon><addon id="repository.rpdev" name="RPDevs Repository" version="1.0.0" provider-name="RPDevs">
+    <extension point="xbmc.addon.repository" name="RPDevs Repository">
+        <dir minversion="20.9.1" maxversion="21.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/RPDevs-Builds/repository.rpdev/main/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/RPDevs-Builds/repository.rpdev/main/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/RPDevs-Builds/repository.rpdev/main/omega/zips/</datadir>
+        </dir>
+        <dir minversion="21.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/RPDevs-Builds/repository.rpdev/main/piers/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/RPDevs-Builds/repository.rpdev/main/piers/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/RPDevs-Builds/repository.rpdev/main/piers/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>RPDevs Repository</summary>
+        <description>A repository for RPDevs builds and addons.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon></addons>

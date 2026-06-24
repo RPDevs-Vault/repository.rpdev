@@ -1,0 +1,6 @@
+[submodule "omega/metadata.anime.otaku.python"]
+	path = omega/metadata.anime.otaku.python
+	url = https://github.com/RPDevs-Builds/metadata.anime.otaku.python
+[submodule "piers/metadata.anime.otaku.python"]
+	path = piers/metadata.anime.otaku.python
+	url = https://github.com/RPDevs-Builds/metadata.anime.otaku.python
