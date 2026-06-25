@@ -7,12 +7,16 @@
 [submodule "omega/script.service.megacloud"]
 	path = omega/script.service.megacloud
 	url = https://github.com/RPDevs-Builds/script.service.megacloud
+	branch = main
 [submodule "omega/script.service.flaresolverr"]
 	path = omega/script.service.flaresolverr
 	url = https://github.com/RPDevs-Builds/script.service.flaresolverr
+	branch = main
 [submodule "piers/script.service.megacloud"]
 	path = piers/script.service.megacloud
 	url = https://github.com/RPDevs-Builds/script.service.megacloud
+	branch = main
 [submodule "piers/script.service.flaresolverr"]
 	path = piers/script.service.flaresolverr
 	url = https://github.com/RPDevs-Builds/script.service.flaresolverr
+	branch = main
