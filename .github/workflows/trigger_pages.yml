@@ -1,0 +1,19 @@
+name: Trigger Pages Update
+
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          repository: RPDevs-Builds/rpdevs-builds.github.io
+          event-type: trigger-pages-update
