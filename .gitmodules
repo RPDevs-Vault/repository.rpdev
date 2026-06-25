@@ -4,3 +4,15 @@
 [submodule "piers/metadata.anime.otaku.python"]
 	path = piers/metadata.anime.otaku.python
 	url = https://github.com/RPDevs-Builds/metadata.anime.otaku.python
+[submodule "omega/script.service.megacloud"]
+	path = omega/script.service.megacloud
+	url = https://github.com/RPDevs-Builds/script.service.megacloud
+[submodule "omega/script.service.flaresolverr"]
+	path = omega/script.service.flaresolverr
+	url = https://github.com/RPDevs-Builds/script.service.flaresolverr
+[submodule "piers/script.service.megacloud"]
+	path = piers/script.service.megacloud
+	url = https://github.com/RPDevs-Builds/script.service.megacloud
+[submodule "piers/script.service.flaresolverr"]
+	path = piers/script.service.flaresolverr
+	url = https://github.com/RPDevs-Builds/script.service.flaresolverr
